@@ -42,6 +42,16 @@ header {
     color: white;
 }
 
+.logo-container {
+    margin-bottom: 1.5rem;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+}
+
 header h1 {
     font-size: 2.5rem;
     font-weight: 700;
