@@ -98,7 +98,7 @@ async function transformImage(file) {
     formData.append('image', file);
     
     try {
-        const response = await fetch('/transform-headshot', {
+        const response = await fetch('/.netlify/functions/transform-headshot', {
             method: 'POST',
             body: formData
         });
